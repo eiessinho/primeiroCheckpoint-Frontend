@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffbf00;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#linha-horizontal {
+    width: 100%;
+    border: 3px solid #ffbf00;
+    box-shadow: 6px 6px 20px #000;
+}
+
+.logo-imagem {
+    width: 45px;
+    height: 45px;
+    background-color: #ffbf00;
+    border-radius: 25px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.textologo1 {
+    font-family: monospace;
+}
+
+.textologo2 {
+    margin-left: -20px;
+    color: #ffbf00;
+    font-family: monospace;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    transition: all 0.22s ease-in;
+    background-color: #ff5500;
+}
+
+.titulo-banner{
+    font-family: monospace;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding: 40px 4%;
+    font-family: roboto;
+    color: rgb(20,20,20);
+
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(1) h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+
+section:nth-of-type(1) {
+    background-image: url("imagem1.jpg");
+    color: white;
+    font-size: 60px;
+}
+
+.descricao-banner {
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaobanner {
+    border: none;
+    padding: 20px 90px 20px 90px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 19px;
+    background-color: #ffbf00;
+}
+
+.botaobanner:hover {
+    transition: all 0.22s ease-in;
+    color: white;
+    background-color: #ff5500;
+}
+
+#botaobanner {
+    padding: 20px 100px;
+    text-decoration: none;
+    color: black;
+}
+
+#seoutromundo {
+    color: #ffd966;
+}
+
+#descri1 {
+    height: 200px;
+    background-color: #ffbf00;
+}
+.container{
+    margin-top: 10px;
+}
